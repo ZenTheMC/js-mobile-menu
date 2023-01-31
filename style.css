@@ -1,0 +1,69 @@
+/* FIRST DRAFT NO REFERENCE CODE, PAIRED WITH HTML + JS */
+
+/* .container {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.expander {
+    background-color: black;
+    color: white;
+    padding: 5px;
+} */
+
+.icon {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.sidenav .closer {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "js-mobile-menu",
+  "version": "1.0.0",
+  "description": "mini-project from TOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenTheMC/js-mobile-menu.git"
+  },
+  "author": "zenthemc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZenTheMC/js-mobile-menu/issues"
+  },
+  "homepage": "https://github.com/ZenTheMC/js-mobile-menu#readme"
+}
